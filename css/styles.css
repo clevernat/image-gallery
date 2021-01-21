@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* ShowCase */
+#showcase{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items:center;
+    /* height: 100vh; */
+    /* padding: 1.5rem 0 0 8rem; */
+    padding: 1.5rem 10rem 0;
+}
+
+#showcase,.show,.overlay{
+    height: 100vh;
+}
+
+
+
+.show{
+    background: url('../img/showcase-over.jpg') no-repeat center center/cover;
+    /* height:100vh; */
+}
+.welcome{
+    font-family: 'Raleway', sans-serif;
+    font-size: 6.3rem;
+    display: block;
+}
+
+/* .image-vector img{
+    position: absolute;
+    left: 1rem;
+} */
+
+.overlay{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* height: 100vh; */
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 1;
+}
+
+
+
+/* Mobile View */
+
+@media(max-width:768px) {
+    #showcase{
+        grid-template-columns: 1fr;
+    }
+
+    .show-text{
+        order: 2;
+    }
+
+    .image-vector img{
+        order: 1;
+        position: relative;
+        right: 0;
+    }
+
+    #showcase{
+        padding: 1rem 1rem 0 1rem;
+    }
+
+
+    .welcome{
+        font-size: 2.3rem;
+        margin-right: 0.6rem;
+        display: inline;
+    }
+
+    #showcase,.show,.overlay{
+        height: 80vh;
+    }
+
+
+    /* @media(max-width:769px) and (min-width:501px) {
+        #showcase{
+            grid-template-columns: 1fr;
+        }
+    
+        .show-text{
+            order: 2;
+        }
+    
+        .image-vector img{
+            order: 1;
+            position: relative;
+            right: 0;
+        }
+    
+        #showcase{
+            padding: 1rem 1rem 0 1rem;
+        }
+    
+    
+        .welcome{
+            font-size: 2.3rem;
+            margin-right: 0.6rem;
+            display: inline;
+        }
+    
+        #showcase,.show,.overlay{
+            height: 80vh;
+        }
+    }
+
+}
+ */
+
+
+
+
+
+
+
+
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+
+.one{
+    border: 1px solid red;
+    background: url("../img/img1.jpg") no-repeat center center/cover;
+    height:50vh;
+
+}
+
+.two{
+    border: 1px solid yellow;
+    background: url("../img/img2.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+
+.three{
+    border: 1px solid green;
+    background: url("../img/img3.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+
+.four{
+    border: 1px solid blue;
+    background: url("../img/img4.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.five{
+    border: 1px solid blue;
+    background: url("../img/img5.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.six{
+    border: 1px solid blue;
+    background: url("../img/img6.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.seven{
+    border: 1px solid blue;
+    background: url("../img/img7.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.eight{
+    border: 1px solid blue;
+    background: url("../img/img8.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.nine{
+    border: 1px solid blue;
+    background: url("../img/img9.jpg") no-repeat center center/cover;
+     height:50vh;
+}
+.ten{
+    border: 1px solid blue;
+    background: url("../img/img10.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.eleven{
+    border: 1px solid blue;
+    background: url("../img/img11.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.twelve{
+    border: 1px solid blue;
+    background: url("../img/img12.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.thirteen{
+    border: 1px solid blue;
+    background: url("../img/img13.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.fourteen{
+    border: 1px solid blue;
+    background: url("../img/img14.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.fifteen{
+    border: 1px solid blue;
+    background: url("../img/img15.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.sixteen{
+    border: 1px solid blue;
+    background: url("../img/img16.jpg") no-repeat center center/cover;
+    height:50vh;
+
+}
+.seventeen{
+    border: 1px solid blue;
+    background: url("../img/img17.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.eighteen{
+    border: 1px solid blue;
+    background: url("../img/img18.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.nineteen{
+    border: 1px solid blue;
+    background: url("../img/img19.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.twenty{
+    border: 1px solid blue;
+    background: url("../img/img20.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.twenty-one{
+    border: 1px solid blue;
+    background: url("../img/img21.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.twenty-two{
+    border: 1px solid blue;
+    background: url("../img/img22.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.twenty-three{
+    border: 1px solid blue;
+    background: url("../img/img23.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.twenty-four{
+    border: 1px solid blue;
+    background: url("../img/img24.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.twenty-five{
+    border: 1px solid blue;
+    background: url("../img/img25.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.twenty-six{
+    border: 1px solid blue;
+    background: url("../img/img26.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.twenty-seven{
+    border: 1px solid blue;
+    background: url("../img/img27.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.twenty-eight{
+    border: 1px solid blue;
+    background: url("../img/img28.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.twenty-nine{
+    border: 1px solid blue;
+    background: url("../img/img29.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.thirty{
+    border: 1px solid blue;
+    background: url("../img/img30.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.thirty-one{
+    border: 1px solid blue;
+    background: url("../img/img31.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.thirty-two{
+    border: 1px solid blue;
+    background: url("../img/img32.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.thirty-three{
+    border: 1px solid blue;
+    background: url("../img/img33.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.thirty-four{
+    border: 1px solid blue;
+    background: url("../img/img34.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.thirty-five{
+    border: 1px solid blue;
+    background: url("../img/img35.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.thirty-six{
+    border: 1px solid blue;
+    background: url("../img/img36.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.thirty-seven{
+    border: 1px solid blue;
+    background: url("../img/img37.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.thirty-eight{
+    border: 1px solid blue;
+    background: url("../img/img38.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.thirty-nine{
+    border: 1px solid blue;
+    background: url("../img/img39.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.fourty{
+    border: 1px solid blue;
+    background: url("../img/img40.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.fourtyone{
+    border: 1px solid blue;
+    background: url("../img/img41.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+.fourtytwo{
+    border: 1px solid blue;
+    background: url("../img/img42.jpg") no-repeat center center/cover;
+    height:50vh;
+}
+
