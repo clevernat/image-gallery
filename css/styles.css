@@ -126,224 +126,268 @@
 
 .images{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
    
 }
 
-.one{
-    border: 1px solid red;
+/* .one{
     background: url("../img/img1.jpg") no-repeat center center/cover;
-    height:50vh;
-
+    height:65vh;
 }
 
 .two{
-    border: 1px solid yellow;
     background: url("../img/img2.jpg") no-repeat center center/cover;
-    height:50vh;
-}
+    height:65vh;
+} */
 
 .three{
-    border: 1px solid green;
     background: url("../img/img3.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 
 .four{
-    border: 1px solid blue;
+
     background: url("../img/img4.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
+    
 }
-.five{
-    border: 1px solid blue;
+/* .five{
+
     background: url("../img/img5.jpg") no-repeat center center/cover;
-    height:50vh;
-}
+    height:65vh;
+} */
+
 .six{
-    border: 1px solid blue;
+
     background: url("../img/img6.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .seven{
-    border: 1px solid blue;
+
     background: url("../img/img7.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .eight{
-    border: 1px solid blue;
+
     background: url("../img/img8.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .nine{
-    border: 1px solid blue;
+
     background: url("../img/img9.jpg") no-repeat center center/cover;
-     height:50vh;
+     height:65vh;
 }
 .ten{
-    border: 1px solid blue;
+
     background: url("../img/img10.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .eleven{
-    border: 1px solid blue;
+
     background: url("../img/img11.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
-.twelve{
-    border: 1px solid blue;
+/* .twelve{
+
     background: url("../img/img12.jpg") no-repeat center center/cover;
-    height:50vh;
-}
+    height:65vh;
+} */
 .thirteen{
-    border: 1px solid blue;
+
     background: url("../img/img13.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .fourteen{
-    border: 1px solid blue;
+
     background: url("../img/img14.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .fifteen{
-    border: 1px solid blue;
+
     background: url("../img/img15.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .sixteen{
-    border: 1px solid blue;
+
     background: url("../img/img16.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 
 }
 .seventeen{
-    border: 1px solid blue;
+
     background: url("../img/img17.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .eighteen{
-    border: 1px solid blue;
+
     background: url("../img/img18.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
-.nineteen{
-    border: 1px solid blue;
+/* .nineteen{
+
     background: url("../img/img19.jpg") no-repeat center center/cover;
-    height:50vh;
-}
+    height:65vh;
+} */
 .twenty{
-    border: 1px solid blue;
+
     background: url("../img/img20.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
-.twenty-one{
-    border: 1px solid blue;
+/* .twenty-one{
+
     background: url("../img/img21.jpg") no-repeat center center/cover;
-    height:50vh;
-}
+    height:65vh;
+} */
 .twenty-two{
-    border: 1px solid blue;
+
     background: url("../img/img22.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .twenty-three{
-    border: 1px solid blue;
+
     background: url("../img/img23.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .twenty-four{
-    border: 1px solid blue;
+
     background: url("../img/img24.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .twenty-five{
-    border: 1px solid blue;
+
     background: url("../img/img25.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
-.twenty-six{
-    border: 1px solid blue;
+/* .twenty-six{
+
     background: url("../img/img26.jpg") no-repeat center center/cover;
-    height:50vh;
-}
+    height:65vh;
+} */
 .twenty-seven{
-    border: 1px solid blue;
+
     background: url("../img/img27.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .twenty-eight{
-    border: 1px solid blue;
+
     background: url("../img/img28.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .twenty-nine{
-    border: 1px solid blue;
+
     background: url("../img/img29.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .thirty{
-    border: 1px solid blue;
+
     background: url("../img/img30.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .thirty-one{
-    border: 1px solid blue;
+
     background: url("../img/img31.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .thirty-two{
-    border: 1px solid blue;
+
     background: url("../img/img32.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .thirty-three{
-    border: 1px solid blue;
+
     background: url("../img/img33.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .thirty-four{
-    border: 1px solid blue;
     background: url("../img/img34.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
-.thirty-five{
-    border: 1px solid blue;
+/* .thirty-five{
+
     background: url("../img/img35.jpg") no-repeat center center/cover;
-    height:50vh;
-}
+    height:65vh;
+} */
 .thirty-six{
-    border: 1px solid blue;
+
     background: url("../img/img36.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
 .thirty-seven{
-    border: 1px solid blue;
+
     background: url("../img/img37.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
-.thirty-eight{
-    border: 1px solid blue;
+/* .thirty-eight{
+
     background: url("../img/img38.jpg") no-repeat center center/cover;
-    height:50vh;
-}
+    height:65vh;
+} */
 .thirty-nine{
-    border: 1px solid blue;
+
     background: url("../img/img39.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
 }
-.fourty{
-    border: 1px solid blue;
+/* .fourty{
+
     background: url("../img/img40.jpg") no-repeat center center/cover;
-    height:50vh;
-}
-.fourtyone{
-    border: 1px solid blue;
+    height:65vh;
+} */
+/* .fourtyone{
+
     background: url("../img/img41.jpg") no-repeat center center/cover;
-    height:50vh;
-}
-.fourtytwo{
-    border: 1px solid blue;
+    height:65vh;
+} */
+/* .fourtytwo{
+
     background: url("../img/img42.jpg") no-repeat center center/cover;
-    height:50vh;
+    height:65vh;
+} */
+.fourtythree{
+
+    background: url("../img/img43.jpg") no-repeat center center/cover;
+    height:65vh;
+}
+.fourtyfour{
+
+    background: url("../img/img44.jpg") no-repeat center center/cover;
+    height:65vh;
+}
+.fourtyfive{
+
+    background: url("../img/img45.jpg") no-repeat center center/cover;
+    height:65vh;
+}
+.fourtysix{
+
+    background: url("../img/img46.jpg") no-repeat center center/cover;
+    height:65vh;
+}
+.fourtyseven{
+
+    background: url("../img/img47.jpg") no-repeat center center/cover;
+    height:65vh;
+}
+.fourtyeight{
+
+    background: url("../img/img48.jpg") no-repeat center center/cover;
+    height:65vh;
+}
+.fourtynine{
+
+    background: url("../img/img49.jpg") no-repeat center center/cover;
+    height:65vh;
+}
+.fifty{
+    background: url("../img/img50.jpg") no-repeat center center/cover;
+    height:65vh;
+}
+.fifty-one{
+    background: url("../img/img51.jpg") no-repeat center center/cover;
+    height:65vh;
+}
+.fifty-two{
+    background: url("../img/img52.jpg") no-repeat center center/cover;
+    height:65vh;
 }
 
 
@@ -356,269 +400,543 @@
     .images{
         display: grid;
         grid-template-columns: 1fr;
-    }
+    } 
 
-    .one{
-        border: 1px solid red;   
+    /* .one{   
         height:75vh;
         margin-bottom:1rem;
        max-width:auto;
-    }
-    .two{
-        border: 1px solid red;
+    } */
+    /* .two{
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
-    }
+    } */
     .three{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .four{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
-    .five{
-        border: 1px solid red;
+    /* .five{
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
-    }
+    } */
     .six{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .seven{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .eight{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .nine{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .ten{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .eleven{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
-    .twelve{
-        border: 1px solid red;
+    /* .twelve{
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
-    }
+    } */
     .thirteen{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .fourteen{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .fifteen{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .sixteen{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .seventeen{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .eighteen{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
-    .nineteen{
-        border: 1px solid red;
+    /* .nineteen{
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
-    }
+    } */
     .twenty{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
-    .twenty-one{
-        border: 1px solid red;
+    /* .twenty-one{
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
-    }
+    } */
     .twenty-two{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .twenty-three{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .twenty-four{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .twenty-five{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
-    .twenty-six{
-        border: 1px solid red;
+    /* .twenty-six{
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
-    }
+    } */
     .twenty-seven{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .twenty-eight{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .twenty-nine{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .thirty{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .thirty-one{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .thirty-two{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .thirty-three{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .thirty-four{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
-    .thirty-five{
-        border: 1px solid red;
+    /* .thirty-five{
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
-    }
+    } */
     .thirty-six{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .thirty-seven{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
-    .thirty-eight{
-        border: 1px solid red;
+    /* .thirty-eight{
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
-    }
+    } */
     .thirty-nine{
-        border: 1px solid red;
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
-    .fourty{
-        border: 1px solid red;
+    /* .fourty{
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
-    }
-    .fourtyone{
-        border: 1px solid red;
+    } */
+    /* .fourtyone{
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
     .fourtytwo{
-        border: 1px solid red;
+        max-width:auto;
+        height:75vh;
+        margin-bottom:1rem;
+    } */
+    .fourtythree{
+        max-width:auto;
+        height:75vh;
+        margin-bottom:1rem;
+    }
+    .fourtyfour{
+        max-width:auto;
+        height:75vh;
+        margin-bottom:1rem;
+    }
+    .fourtyfive{
+        max-width:auto;
+        height:75vh;
+        margin-bottom:1rem;
+    }
+    .fourtysix{
+        max-width:auto;
+        height:75vh;
+        margin-bottom:1rem;
+    }
+    .fourtyseven{
+        max-width:auto;
+        height:75vh;
+        margin-bottom:1rem;
+    }
+    .fourtyeight{
+        max-width:auto;
+        height:75vh;
+        margin-bottom:1rem;
+    }
+    .fourtynine{
+        max-width:auto;
+        height:75vh;
+        /* margin-bottom:1rem; */
+    }
+    .fifty{
+        max-width:auto;
+        height:75vh;
+        margin-bottom:1rem;
+    }
+    .fifty-one{
+        max-width:auto;
+        height:75vh;
+        margin-bottom:1rem;
+    }
+    .fifty-two{
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
 
+
 }
 
+@media(max-width:769px){
+    
+}
 
 @media(max-width:768px) and (min-width:501px){
 
     .images{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    
+    /* .one{   
+        height:90vh;
+        margin-bottom:1rem;
+       max-width:auto;
+    }
+    .two{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    } */
+    .three{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .four{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    /* .five{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    } */
+    .six{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .seven{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .eight{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .nine{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .ten{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .eleven{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    /* .twelve{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    } */
+    .thirteen{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .fourteen{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .fifteen{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .sixteen{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .seventeen{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .eighteen{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    /* .nineteen{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    } */
+    .twenty{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    /* .twenty-one{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    } */
+    .twenty-two{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .twenty-three{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .twenty-four{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .twenty-five{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    /* .twenty-six{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    } */
+    .twenty-seven{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .twenty-eight{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .twenty-nine{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .thirty{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .thirty-one{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .thirty-two{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .thirty-three{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .thirty-four{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    /* .thirty-five{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    } */
+    .thirty-six{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .thirty-seven{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    /* .thirty-eight{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    } */
+    .thirty-nine{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    /* .fourty{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .fourtyone{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .fourtytwo{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    } */
+    .fourtythree{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .fourtyfour{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .fourtyfive{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .fourtysix{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .fourtyseven{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .fourtyeight{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .fourtynine{
+        max-width:auto;
+        height:90vh;
+        /* margin-bottom:1rem; */
+        margin-bottom: 0;
+    }
+    .fifty{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .fifty-one{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    }
+    .fifty-two{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
     }
 
 }
@@ -632,3 +950,7 @@
     }
 
 }
+
+
+
+
