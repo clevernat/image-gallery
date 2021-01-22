@@ -5,6 +5,13 @@ clickHere.addEventListener('click', displayImages);
 function displayImages(e) {
 
    const images = document.querySelector('.images');
+
+   document.querySelector('.openImage').innerHTML = `
+   <button type="button" class="btn btn-outline-warning btn-lg " id="clickHere">View Images <i class="far fa-eye"></i></button>
+   `
+
+   document.querySelector('.noImage').style.display = 'none';
+
    images.innerHTML = `
 
    <div class="three"></div>
@@ -46,9 +53,15 @@ function displayImages(e) {
             <div class="twenty-nine"></div>
             <div class="fourtynine"></div> 
             <div class="thirty-nine"></div>
-            <div class="fifty-one"></div>  
+            <div class="fifty-one"></div> 
    
    `
 
+   
+
     e.preventDefault();
 }
+
+
+
+
