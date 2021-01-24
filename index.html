@@ -5,10 +5,15 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- aos css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- mobile css -->
     <link rel="stylesheet" href="./css/mobile.css">
     <!-- css -->
     <link rel="stylesheet" href="./css/styles.css">
+
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Ubuntu:wght@300&display=swap"
@@ -21,6 +26,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+    <!-- Aos cs -->
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css"   rel="stylesheet"> -->
+
+
     <title>Image Gallery</title>
 </head>
 
@@ -31,18 +40,20 @@
             <div class="overlay">
                 <div id="showcase">
                     <div class="show-text">
-                        <h1 class="text-warning main"><span class="welcome text-warning">Welcome</span>To My Photo Gallery
+                        <h1 data-aos="fade-right" class="text-warning main"><span
+                                class="welcome text-warning">Welcome</span>To My Photo Gallery
                         </h1>
-                        <h1 class="text-warning mobile">The Photo Gallery</h1>
-                        <div class="d-grid gap-2 d-lg-block">
-                            <button type="button" class="btn btn-outline-warning btn-lg noImage" id="clickHere">Click Here <i
-                                    class="fas fa-arrow-down"></i></button>
+                        <h1 data-aos="fade-right" class="text-warning mobile">The Photo Gallery</h1>
+                        <div data-aos="fade-left" class="d-grid gap-2 d-lg-block">
+                                <button type="button" class="btn btn-outline-warning btn-lg noImage"
+                                    id="clickHere">Click Here
+                                <span><i class="fas fa-arrow-down text-outline-warning"></i></button></span>
                         </div>
                         <div class="d-grid gap-2 d-lg-block openImage">
-                           
+
                         </div>
                     </div>
-                    <div class="image-vector">
+                    <div data-aos="fade-left" class="image-vector">
                         <img src="./img/showcase.png" alt="" class="img-fluid">
                     </div>
                 </div>
@@ -51,64 +62,40 @@
     </div>
 
 
-        <div class="images">
-            <!-- <div class="three"></div>
-            <div class="eight"></div>
-            <div class="twenty-seven"></div>
-            <div class="thirty-three"></div>
-            <div class="fourtyfive"></div>
-            <div class="thirty-six"></div>
-            <div class="thirty-two"></div>
-            <div class="twenty-two"></div>
-            <div class="thirteen"></div>
-            <div class="sixteen"></div>
-            <div class="ten"></div>
-            <div class="fourteen"></div>
-            <div class="nine"></div>
-            <div class="seven"></div>
-            <div class="eighteen"></div>
-            <div class="seventeen"> </div>
-            <div class="thirty-one"></div>
-            <div class="twenty-eight"></div>
-            <div class="fourtyseven"></div>
-            <div class="fourtysix"></div>
-            <div class="twenty"></div>
-            <div class="fifty-two"></div>
-            <div class="fourtythree"></div>
-            <div class="six"></div>
-            <div class="fifteen"></div>
-            <div class="fourtyfour"></div>
-            <div class="four"></div>
-            <div class="eleven"></div>
-            <div class="twenty-three"></div>
-            <div class="thirty"></div>
-            <div class="twenty-four"></div>
-            <div class="fifty"></div>
-            <div class="fourtyeight"></div>
-            <div class="thirty-four"></div>
-            <div class="twenty-five"></div>
-            <div class="thirty-seven"></div>
-            <div class="twenty-nine"></div>
-            <div class="fourtynine"></div> 
-            <div class="thirty-nine"></div>
-            <div class="fifty-one"></div>   -->
-        </div>
+    <div class="images">
+        <!-- images -->
+    </div>
+
+
 
 
     <!-- Footer -->
-    <footer class="bg-dark text-warning py-3 text-center">
-        <small>Powered By clevernat &copy; <span class="insert-date"></span></small> 
+    <footer class="footers">
+        <!-- <small>Powered By clevernat &copy; <span class="insert-date"></span></small> -->
     </footer>
 
 
+    
+
+    
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
     </script>
 
+
     <!-- Main Scripts Tag -->
     <script src="./js/date.js"></script>
     <script src="./js/app.js"></script>
+    <!-- Aos js -->
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
+
+
+
 
 </body>
 
