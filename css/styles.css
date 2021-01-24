@@ -199,11 +199,11 @@ button i {
     background: url("../img/img11.jpg") no-repeat center center/cover;
     height:65vh;
 }
-/* .twelve{
+.twelve{
 
     background: url("../img/img12.jpg") no-repeat center center/cover;
     height:65vh;
-} */
+}
 .thirteen{
 
     background: url("../img/img13.jpg") no-repeat center center/cover;
@@ -314,16 +314,16 @@ button i {
     background: url("../img/img34.jpg") no-repeat center center/cover;
     height:65vh;
 }
-/* .thirty-five{
+.thirty-five{
 
     background: url("../img/img35.jpg") no-repeat center center/cover;
     height:65vh;
-} */
-.thirty-six{
+}
+/* .thirty-six{
 
     background: url("../img/img36.jpg") no-repeat center center/cover;
     height:65vh;
-}
+} */
 .thirty-seven{
 
     background: url("../img/img37.jpg") no-repeat center center/cover;
@@ -334,11 +334,11 @@ button i {
     background: url("../img/img38.jpg") no-repeat center center/cover;
     height:65vh;
 } */
-.thirty-nine{
+/* .thirty-nine{
 
     background: url("../img/img39.jpg") no-repeat center center/cover;
     height:65vh;
-}
+} */
 /* .fourty{
 
     background: url("../img/img40.jpg") no-repeat center center/cover;
@@ -469,11 +469,11 @@ button i {
         height:75vh;
         margin-bottom:1rem;
     }
-    /* .twelve{
+    .twelve{
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
-    } */
+    }
     .thirteen{
         max-width:auto;
         height:75vh;
@@ -584,16 +584,16 @@ button i {
         height:75vh;
         margin-bottom:1rem;
     }
-    /* .thirty-five{
-        max-width:auto;
-        height:75vh;
-        margin-bottom:1rem;
-    } */
-    .thirty-six{
+    .thirty-five{
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
     }
+    /* .thirty-six{
+        max-width:auto;
+        height:75vh;
+        margin-bottom:1rem;
+    } */
     .thirty-seven{
         max-width:auto;
         height:75vh;
@@ -604,11 +604,11 @@ button i {
         height:75vh;
         margin-bottom:1rem;
     } */
-    .thirty-nine{
+    /* .thirty-nine{
         max-width:auto;
         height:75vh;
         margin-bottom:1rem;
-    }
+    } */
     /* .fourty{
         max-width:auto;
         height:75vh;
@@ -744,11 +744,11 @@ button i {
         height:90vh;
         margin-bottom:1rem;
     }
-    /* .twelve{
+    .twelve{
         max-width:auto;
         height:90vh;
         margin-bottom:1rem;
-    } */
+    }
     .thirteen{
         max-width:auto;
         height:90vh;
@@ -859,16 +859,16 @@ button i {
         height:90vh;
         margin-bottom:1rem;
     }
-    /* .thirty-five{
-        max-width:auto;
-        height:90vh;
-        margin-bottom:1rem;
-    } */
-    .thirty-six{
+    .thirty-five{
         max-width:auto;
         height:90vh;
         margin-bottom:1rem;
     }
+    /* .thirty-six{
+        max-width:auto;
+        height:90vh;
+        margin-bottom:1rem;
+    } */
     .thirty-seven{
         max-width:auto;
         height:90vh;
@@ -879,11 +879,11 @@ button i {
         height:90vh;
         margin-bottom:1rem;
     } */
-    .thirty-nine{
+    /* .thirty-nine{
         max-width:auto;
         height:90vh;
         margin-bottom:1rem;
-    }
+    } */
     /* .fourty{
         max-width:auto;
         height:90vh;

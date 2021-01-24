@@ -44,12 +44,12 @@ function displayImages(e) {
 
    images.innerHTML = `
 
-   <div data-aos="fade-up" class="three"></div>
+            <div data-aos="fade-up" class="three"></div>
             <div data-aos="fade-down" class="eight"></div>
             <div data-aos="fade-right" class="twenty-seven"></div>
             <div data-aos="fade-left" class="thirty-three"></div>
             <div data-aos="fade-up-right" class="fourtyfive"></div>
-            <div data-aos="fade-up-left" class="thirty-six"></div>
+            <div data-aos="fade-left" class="twenty-three"></div>
             <div data-aos="fade-down-right" class="thirty-two"></div>
             <div data-aos="fade-down-left" class="twenty-two"></div>
             <div data-aos="flip-left" class="thirteen"></div>
@@ -72,17 +72,18 @@ function displayImages(e) {
             <div data-aos="fade-right" class="fourtyfour"></div>
             <div data-aos="fade-left" class="four"></div>
             <div data-aos="fade-right" class="eleven"></div>
-            <div data-aos="fade-left" class="twenty-three"></div>
             <div data-aos="fade-right" class="thirty"></div>
+            <div data-aos="fade-up-left" class="twelve"></div>
             <div data-aos="fade-left" class="twenty-four"></div>
             <div data-aos="fade-right" class="fifty"></div>
             <div data-aos="fade-left" class="fourtyeight"></div>
             <div data-aos="fade-right" class="thirty-four"></div>
+            <div data-aos="fade-left" class="thirty-five"></div>
             <div data-aos="fade-left" class="twenty-five"></div>
             <div data-aos="fade-right" class="thirty-seven"></div>
-            <div data-aos="fade-left" class="twenty-nine"></div>
+            <div data-aos="fade-left" class="twenty-five"></div>
             <div data-aos="fade-right" class="fourtynine"></div> 
-            <div data-aos="fade-left" class="thirty-nine"></div>
+            
             <div data-aos="fade-right" class="fifty-one"></div>  
    
    `
